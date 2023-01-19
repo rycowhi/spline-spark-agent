@@ -165,6 +165,7 @@
                     <scalaVersion>${scala.version}</scalaVersion>
                     <args>
                         <arg>-target:jvm-${java.version}</arg>
+                        <arg>-nobootcp</arg>
                         <arg>-feature</arg>
                         <arg>-deprecation</arg>
                         <arg>-unchecked</arg>
@@ -259,7 +260,7 @@
                 <plugin>
                     <groupId>net.alchim31.maven</groupId>
                     <artifactId>scala-maven-plugin</artifactId>
-                    <version>4.5.0</version>
+                    <version>4.8.0</version>
                 </plugin>
                 <plugin>
                     <groupId>com.github.cerveada</groupId>
